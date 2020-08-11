@@ -1,0 +1,33 @@
+{
+  "name": "bs-healthcare",
+  "version": "1.0.0",
+  "description": "A front-end design project utilizing bootstrap as a way of self study.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milkndcoffee/bs-healthcare.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/milkndcoffee/bs-healthcare/issues"
+  },
+  "homepage": "https://github.com/milkndcoffee.io/bs-healthcare",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "gh-pages": "^3.1.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
