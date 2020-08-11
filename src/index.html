@@ -13,9 +13,66 @@
 
 <body>
 
-  <div class="container">
-    <p>Test Deploy</p>
+  <div class="container-fluid">
+    
+    <!-- Warnings -->
+    <div class="show pr-2 pl-2 " id="warningAtTop" style="background-color: rgb(77, 136, 163);">
+      <p class="mb-0 p-1 ">Warning: this is a warning message placed above everything else because it is a warning message.</p>
+      <button type="button" class="close fixed-top ml-auto pr-2 mt-auto" data-toggle="collapse" data-target="#warningAtTop" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <!-- Heading -->
+    <header class="pb-1 pt-2" style="background-color: rgb(163, 77, 117);">
+      <p class="display-4 ml-md-4 d-none d-sm-block" style="color: rgb(255, 255, 255); margin-top: 0;">Best Self Healthcare</p>
+      <p class="d-block d-sm-none" style="color: rgb(255, 255, 255); text-align: center; font-size: 26pt; letter-spacing: 3px; font-family: Arial, Helvetica, sans-serif;">Best Self Healthcare</p>
 
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(163, 77, 117);">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="form-inline d-block d-sm-none" >
+          <input class="form-control mr-2 " type="search" placeholder="How can we help you?" aria-label="Search">
+        </form>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link mr-md-4 " href="#"> Home </a></li>
+            <li class="nav-item"><a class="nav-link mr-md-4" href="#"> Locations </a></li>
+            <li class="nav-item"><a class="nav-link mr-md-4" href="#"> Our Services </a></li>
+            <li class="nav-item"><a class="nav-link mr-md-4" href="#"> Billing </a></li>
+            <li class="nav-item"><a class="nav-link mr-md-4" href="#"> Contact Us </a></li>
+          </ul>
+        </div>
+        <form class="form-inline d-none d-sm-block" >
+          <input class="form-control mr-2 " type="search" placeholder="How can we help you?" aria-label="Search">
+          <button class="btn btn-sm  " style="background-color: rgb(216, 168, 170);" type="submit">Search</button>
+        </form>
+        
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <section class="ml-4 mr-4 pt-4 pb-4">
+        <p class="display-4" style="font-size: 20pt;">This is going to be a text over an image which is large and contains a shadow</p>
+        <p class="lead">This is going to be a smaller text under the bigger text. There's going to be a lot more text here
+          than the one above because it is going to be something alongst the line of a description.
+        </p>
+        <!-- Text over image -->
+        <!-- Image -->
+      </section>
+      <section class="ml-4 mr-4 pt-4 pb-4 row">
+        <p class="col-12">The columns below displays information about the company and why you should choose it</p>
+        <p class="col-md-4">section 2</p>
+        <p class="col-md-4">section 2</p>
+        <p class="col-md-4">section 2</p>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="jumbotron ">
+      <p>Footer</p>
+    </footer>
   </div>
 
   <!-- Scripts -->
