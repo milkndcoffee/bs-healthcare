@@ -21,7 +21,7 @@ body {
 .img-container{
   overflow: hidden;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
 .warning-top{
@@ -34,5 +34,32 @@ body {
 .text-over-img-container{
   position: static; 
   text-align: left; 
-  height: 500px;
+  height: 600px;
 }
+
+.text-over-img{
+  color: rgb(249, 249, 249);
+  text-shadow: -3px 3px 3px #1d1d1d;
+}
+
+.col-div{
+  height:80%;
+  width:1px;
+  border-left:1px solid rgb(51, 51, 51);
+ }
+ 
+ .footer{
+  background-color: #353434;
+  padding-bottom: 0;
+  color: white;
+ }
+
+ .footer ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+ .footer-text{
+  font-size: 10pt;
+  text-align: left;
+ }
