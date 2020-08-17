@@ -1,7 +1,14 @@
-$bg-color: rgb(249, 249, 249);
+$bg-color: #F6F7F8;
+$heading-color: rgb(94, 174, 221);
+$warning-color: #f0e268;
+
 
 body {
   background-color: $bg-color;
+}
+
+.header{
+  background-color: $heading-color;
 }
 
 html,body
@@ -22,7 +29,7 @@ html,body
 
 .nav-link:hover{
   text-decoration: none;
-  border-bottom: 4px solid rgb(249, 249, 249);
+  border-bottom: 4px solid #F6F7F8;
   margin-bottom: -4px;
 }
 
@@ -36,7 +43,7 @@ html,body
 .warning-top{
   display:inline-flex; 
   width: 100%; 
-  background-color: rgb(93, 174, 180);
+  background-color: $warning-color;
   font-size: 11pt;
 }
 
@@ -71,4 +78,9 @@ html,body
  .footer-text{
   font-size: 10pt;
   text-align: left;
+ }
+
+ .footer-text p {
+   padding-bottom: .6rem;
+   margin-bottom: 0;
  }
