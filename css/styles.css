@@ -47,6 +47,9 @@ html, body {
   width: 1px;
   border-left: 1px solid #333333; }
 
+/* -------------
+  Footer Styling 
+   ------------- */
 .footer {
   background-color: #353434;
   padding-bottom: 0;
@@ -64,3 +67,31 @@ html, body {
 .footer-text p {
   padding-bottom: .6rem;
   margin-bottom: 0; }
+
+.sect-item-footer {
+  padding-left: 4rem;
+  padding-right: 4rem; }
+
+@media (min-width: 481px) {
+  /* Tablet Footer */
+  .inner-footer {
+    padding-left: 10%;
+    padding-right: 10%; }
+  .footer-text {
+    font-size: 10pt;
+    text-align: left; }
+  .sect-item-footer {
+    padding-left: .4rem;
+    padding-right: .4rem; } }
+
+@media (min-width: 1281px) {
+  /* Desktop Footer */
+  .inner-footer {
+    padding-left: 20%;
+    padding-right: 20%; }
+  .footer-text {
+    font-size: 10pt;
+    text-align: left; }
+  .sect-item-footer {
+    padding-left: 3.4rem;
+    padding-right: 3.4rem; } }
