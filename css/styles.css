@@ -4,6 +4,9 @@ body {
 .header {
   background-color: #5eaedd; }
 
+.navbar {
+  background-color: #5eaedd; }
+
 html, body {
   width: 100%;
   margin: 0px;
@@ -46,6 +49,15 @@ html, body {
   height: 80%;
   width: 1px;
   border-left: 1px solid #333333; }
+
+/* -------------
+  Navbar Styling 
+  ------------- */
+.sticky-this {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
 
 /* -------------
   Footer Styling 
