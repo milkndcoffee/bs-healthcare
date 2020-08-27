@@ -5,7 +5,8 @@ body {
   background-color: #5eaedd; }
 
 .navbar {
-  background-color: #5eaedd; }
+  background-color: #5eaedd;
+  box-shadow: 0 5px 5px 0 rgba(27, 27, 27, 0.2); }
 
 html, body {
   width: 100%;
@@ -18,6 +19,11 @@ html, body {
   padding-left: 0;
   margin-right: auto;
   margin-left: auto; }
+
+.sect-heading {
+  font-size: 30pt;
+  font-weight: 300;
+  line-height: 1.2; }
 
 .nav-link:hover {
   text-decoration: none;
@@ -33,7 +39,7 @@ html, body {
 .warning-top {
   display: inline-flex;
   width: 100%;
-  background-color: #f0e268;
+  background-color: #fce580;
   font-size: 11pt; }
 
 .text-over-img-container {
@@ -66,44 +72,94 @@ html, body {
   background-color: #353434;
   padding-bottom: 0;
   color: white; }
+  .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .footer .footer-text {
+    font-size: 10pt;
+    text-align: left; }
+  .footer .footer-text p {
+    padding-bottom: .6rem;
+    margin-bottom: 0; }
+  .footer .sect-item-footer {
+    padding-left: 4rem;
+    padding-right: 4rem; }
 
-.footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; }
+/* -------------
+  location.html Styling 
+   ------------- */
+.location {
+  padding: 2%; }
+  .location .card {
+    margin-left: 10%;
+    margin-right: 10%; }
+  .location p {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 12pt;
+    font-weight: 300; }
 
-.footer-text {
-  font-size: 10pt;
-  text-align: left; }
-
-.footer-text p {
-  padding-bottom: .6rem;
-  margin-bottom: 0; }
-
-.sect-item-footer {
-  padding-left: 4rem;
-  padding-right: 4rem; }
+/* -------------
+  ourservices.html Styling 
+   ------------- */
+.service {
+  padding: 2%; }
+  .service h3 {
+    display: inline-block;
+    border-bottom: 3px solid #333333; }
+  .service ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .service p {
+    font-size: 12pt;
+    font-weight: 300; }
 
 @media (min-width: 481px) {
   /* Tablet Footer */
-  .inner-footer {
+  .footer .inner-footer {
     padding-left: 10%;
     padding-right: 10%; }
-  .footer-text {
+  .footer .footer-text {
     font-size: 10pt;
     text-align: left; }
-  .sect-item-footer {
+  .footer .sect-item-footer {
     padding-left: .4rem;
     padding-right: .4rem; } }
 
 @media (min-width: 1281px) {
+  .navbar {
+    background-color: #549ac4;
+    box-shadow: 0 10px 8px 0 rgba(27, 27, 27, 0.2); }
+  header .company-title {
+    padding-bottom: 1%; }
   /* Desktop Footer */
-  .inner-footer {
+  .footer .inner-footer {
     padding-left: 20%;
     padding-right: 20%; }
-  .footer-text {
+  .footer .footer-text {
     font-size: 10pt;
     text-align: left; }
-  .sect-item-footer {
+  .footer .sect-item-footer {
     padding-left: 3.4rem;
-    padding-right: 3.4rem; } }
+    padding-right: 3.4rem; }
+  .location h2 {
+    margin-top: 10%; }
+  .location .card {
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%; }
+  .location p {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 12pt;
+    font-weight: 300; }
+  .service {
+    padding: 2%; }
+    .service h3 {
+      font-weight: 200; }
+    .service ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; } }
