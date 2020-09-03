@@ -83,6 +83,9 @@ html,body
   width: 100%;
   z-index: 1;
 }
+.push-up{
+  padding-top: 60px;
+}
 
 /* -------------
   Footer Styling 
@@ -148,6 +151,55 @@ html,body
     font-weight: 300;
   }
 }
+
+/* ------------
+  contactus.html
+   ------------*/
+.contact-us{
+  padding: 2%;
+  p{
+    font-weight: 300;
+  }
+}
+.form-container {
+  margin: auto;
+  border-radius: 4px;
+}
+.form-container label {
+  display: inline-block;
+  padding: .5rem;
+  padding-top: 1rem;
+}
+.form-container input[type=text], select, textarea {
+  align-items: center;
+  width: 80%;
+  padding: 12px;
+  font-size: 10pt;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: .3rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  resize: none;
+}
+
+/* ---------
+  Billing
+------------ */
+.billing{
+  padding: 2%;
+  p{
+    font-weight: 300;
+  }
+  h3{
+    padding: .8rem;
+    border-radius: 2px;
+    background-color: rgb(227, 232, 233);
+  }
+  .btn{
+    width: 80%;
+    margin-bottom: .6rem;
+  }
+}
+
 
 //Stylings Above Mobile-viewports
 @media (min-width:481px)  {
@@ -216,8 +268,6 @@ html,body
 
   .service{
     padding: 2%;
-
-    
     h3{
       font-weight: 200;
     }
@@ -228,5 +278,25 @@ html,body
     }
   }
 
+  .form-container input[type=text], select, textarea {
+    align-items: center;
+    width: 50%;
+    padding: 12px;
+    font-size: 10pt;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: .3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    resize: none;
+  }
+
+  .billing{
+    .btn{
+      width: unset;
+      margin-bottom: unset;
+    }
+    h2{
+      font-weight: 300;
+    }
+  }
 }
  

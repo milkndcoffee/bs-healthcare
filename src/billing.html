@@ -68,7 +68,80 @@
 
     <!-- Main -->
     <main>
+      <section class="billing row pb-4" style="text-align: center;">
+        <div class="col-12">
+          <h1 class="sect-heading">Billing</h1>
+          <p>Here in Best Self Healthcare we offer an efficient, secure, and quick payment whether the means be through
+            online payment or in office. </p>
+        </div>
+        <hr class="w-100 pb-4" >
+        <div class="col-12">
+          <h2>Please select your form of payment.</h2>
+        </div>
+        <div class="col-md-12 offset-lg-2 col-lg-4 billing-column">
+          <button class="btn " type="button" data-toggle="collapse" data-target="#onlinePayment" aria-expanded="false"
+            aria-controls="onlinePayment">
+            <h3>Online Payment</h3>
+          </button>
+          <div class="collapse" id="onlinePayment">
+            <div class="m-2 p-4" style="background-color: #ebeef1; text-align: left;">
+              <p>Hi in order to pay online, please carefully read and follow the necessary steps:</p>
+              <ol>
+                <li>Select office</li>
+                <li>Select service for payment </li>
+                <li>Select payment option </li>
+              </ol>
 
+              <br>
+              <p style="font-weight: bold;">Select Your Office: </p>
+              <div class="row" style="text-align: center; justify-content: space-evenly;">
+                <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#secondStep"
+                  aria-expanded="false" aria-controls="secondStep"> Main Office </button>
+                <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#secondStep"
+                  aria-expanded="false" aria-controls="secondStep"> Lorem Office </button>
+                <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#secondStep"
+                  aria-expanded="false" aria-controls="secondStep"> Ipsum Office </button>
+              </div>
+
+              <div class="collapse m-2 p-4" id="secondStep" style="background-color: #d7dde2;">
+                <p style="font-weight: bold;">Select Service</p>
+                <div class="row" style="text-align: center; justify-content: space-evenly;">
+                  <button class="btn" style="background-color: rgb(72, 174, 174); color: white;" type="button" data-toggle="collapse" data-target="#thirdStep"
+                    aria-expanded="false" aria-controls="secondStep">Caregiver</button>
+                  <button class="btn" style="background-color: rgb(72, 174, 174); color: white;" type="button" data-toggle="collapse" data-target="#thirdStep"
+                    aria-expanded="false" aria-controls="secondStep">Surgery</button>
+                  <button class="btn" style="background-color: rgb(72, 174, 174); color: white;" type="button" data-toggle="collapse" data-target="#thirdStep"
+                    aria-expanded="false" aria-controls="secondStep">Therapy</button>
+                  <button class="btn" style="background-color: rgb(72, 174, 174); color: white;" type="button" data-toggle="collapse" data-target="#thirdStep"
+                    aria-expanded="false" aria-controls="secondStep">Injections</button>
+                </div>
+                <div class="collapse m-4 pb-4 pl-4 pr-4 pt-3" id="thirdStep" style="background-color: #c3cdd4;">
+                  <p style="font-weight: bold;">Select Payment</p>
+                    <a href="#option1Clicked">Card (Mastercard, Visa, etc.)</a><br>
+                    <a href="#option2Clicked">Paypal</a><br>
+                    <a href="#option3Clicked">Insurance</a>
+              </div>
+              
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12  col-lg-4 ">
+          <button class="btn " type="button" data-toggle="collapse" data-target="#officePayment" aria-expanded="false"
+            aria-controls="officePayment">
+            <h3>In Office Payment</h3>
+          </button>
+          <div class="collapse" id="officePayment">
+            <div class="m-2 p-4" style="background-color: #ebeef1; text-align: left;">
+              Hi, in order to make an in office payment please make sure the office you are visiting is open. To check, you can call us (or email us for future time availability).
+              <br>
+              <br><a href="contactus.html">> Location & Availability</a>
+              <br><a href="contactus.html">> Contact Information</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
     </main>
 
@@ -90,11 +163,11 @@
           <h1 class="pb-2" style="font-size: 20pt;">Navigation</p>
             <div style="padding-left:2rem; padding-right:2rem">
               <ul>
-                <li class="footer-text"><a href="#">> Home</a></li>
-                <li class="footer-text"><a href="#">> Locations</a></li>
-                <li class="footer-text"><a href="#">> Our Services</a></li>
-                <li class="footer-text"><a href="#">> Billing</a></li>
-                <li class="footer-text"><a href="#">> Contact Information</a></li>
+                <li class="footer-text"><a href="index.html">> Home</a></li>
+                <li class="footer-text"><a href="locations.html">> Locations</a></li>
+                <li class="footer-text"><a href="ourservices.html">> Our Services</a></li>
+                <li class="footer-text"><a href="billing.html">> Billing</a></li>
+                <li class="footer-text"><a href="contactus.html">> Contact Information</a></li>
               </ul>
             </div>
         </div>
